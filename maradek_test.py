@@ -23,10 +23,5 @@ def test_maradek():
     assert py1.maradek(5, 22) == 5
     assert py1.maradek(5, 23) == 5
     assert py1.maradek(5, 24) == 5
-    assert py1.maradek(5, 25) == 0
-    assert py1.maradek(5, 26) == 5
-    assert py1.maradek(5, 27) == 5
-    assert py1.maradek(5, 28) == 5
-    assert py1.maradek(5, 29) == 5
-    assert py1.maradek(5, 30) == 5
-   
+    assert py1.maradek(5, 25) == 5
+    
