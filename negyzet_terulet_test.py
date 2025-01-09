@@ -1,0 +1,33 @@
+import py1
+def test_negyzet_terulet():
+    assert py1.negyzet_terulet(1) == 1
+    assert py1.negyzet_terulet(2) == 4
+    assert py1.negyzet_terulet(3) == 9
+    assert py1.negyzet_terulet(4) == 16
+    assert py1.negyzet_terulet(5) == 25
+    assert py1.negyzet_terulet(6) == 36
+    assert py1.negyzet_terulet(7) == 49
+    assert py1.negyzet_terulet(8) == 64
+    assert py1.negyzet_terulet(9) == 81
+    assert py1.negyzet_terulet(10) == 100
+    assert py1.negyzet_terulet(11) == 121
+    assert py1.negyzet_terulet(12) == 144
+    assert py1.negyzet_terulet(13) == 169
+    assert py1.negyzet_terulet(14) == 196
+    assert py1.negyzet_terulet(15) == 225
+    assert py1.negyzet_terulet(16) == 256
+    assert py1.negyzet_terulet(17) == 289
+    assert py1.negyzet_terulet(18) == 324
+    assert py1.negyzet_terulet(19) == 361
+    assert py1.negyzet_terulet(20) == 400
+    assert py1.negyzet_terulet(21) == 441
+    assert py1.negyzet_terulet(22) == 484
+    assert py1.negyzet_terulet(23) == 529
+    assert py1.negyzet_terulet(24) == 576
+    assert py1.negyzet_terulet(25) == 625
+    assert py1.negyzet_terulet(26) == 676
+    assert py1.negyzet_terulet(27) == 729
+    assert py1.negyzet_terulet(28) == 784
+    assert py1.negyzet_terulet(29) == 841
+    assert py1.negyzet_terulet(30) == 900
+    assert py1.negyzet_terulet(31) == 961
